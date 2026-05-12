@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ventana emergente (Unidad 6)</title>
+  </head>
+  <body>
+    <h1>Ventana emergente</h1>
+    <p id="mensajeRecibido">Esperando mensaje…</p>
+    <script>
+      window.addEventListener("message", (event) => {
+        document.getElementById("mensajeRecibido").textContent =
+          "Mensaje recibido: " + event.data;
+      });
+    </script>
+  </body>
+</html>

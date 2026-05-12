@@ -1,0 +1,29 @@
+/* Unidad 7 — 7.4 (PDF): clases de ejemplo sobre botones e inputs */
+.u7-azul {
+  color: red;
+  border-bottom: 4px solid blue;
+}
+
+.u7-col {
+  background-color: #ffff00;
+}
+
+.u7-color {
+  padding: 0.5em 1em;
+  background-color: #ffff00;
+}
+
+.u7-fieldset div {
+  margin: 0.4em 0;
+}
+
+.u7-fieldset div label {
+  width: 25%;
+  float: left;
+}
+
+.u7-fieldset::after {
+  content: "";
+  display: table;
+  clear: both;
+}

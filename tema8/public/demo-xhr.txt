@@ -1,0 +1,1 @@
+Hola desde public/demo-xhr.txt (petición GET con XMLHttpRequest, Unidad 8).

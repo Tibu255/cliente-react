@@ -1,0 +1,36 @@
+/* Estilos del ejemplo 5.5.3 del temario (visor + imagen + botonera) */
+
+/* Contenedor fijo del área donde se muestra la foto */
+.visor {
+  width: 300px;
+  height: 200px;
+  border: 0;
+}
+
+/* La imagen ocupa todo el marco del visor */
+.imagen {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  background: #111;
+}
+
+/* Fila de botones repartidos a lo ancho */
+.botones {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.botones button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Gira el icono (en el PDF se combina con Font Awesome para “retroceder” con el mismo icono que avanza) */
+.flip-horizontal {
+  transform: rotateY(180deg);
+}
